@@ -1,4 +1,11 @@
-// document.getElementById("submitButton").onclick = function () {
-//     var n = window.document.getElementById("numberInput").value;
-// }
-//n-1 n-2 n-3 n-4 n-5 until n-nok
+document.getElementById("submitButton").onclick = function () {
+    var n = window.document.getElementById("numberInput").value;
+    let sum = 0;
+    for (i=0;i<=n;1++) {
+        sum += i
+    }
+
+    parseInt(sum)
+    alert(sum)
+}
+
