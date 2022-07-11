@@ -2,14 +2,15 @@ document.getElementById("submitButton").onclick = function () {
     var n = window.document.getElementById("numberInput").value;
     let sum = 0;
     if (summary === true) {
-        for (i = 0; i <= n; i++) {
+        for (i = 1; i <= n; i++) {
             sum += i
         }
         parseInt(sum)
         alert(sum)
     }
     else {
-        for (i = 0; i <= n; i++) {
+        sum=1
+        for (i = 1; i <= n; i++) {
             sum *= i
         }
         parseInt(sum)
