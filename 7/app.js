@@ -1,4 +1,3 @@
-
 for (i = 1; i <= 12; i++) {
     document.write("1*"+i+"=")
     document.write(i * 1+" ")
